@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+       
+<tiles-definitions>
+ <!-- ADMIN TEMPLATE -->
+  <definition name="admin.template" template="/WEB-INF/templates/admin/template.jsp">
+    <put-attribute name="header" value="/WEB-INF/templates/admin/header.jsp" />
+     <put-attribute name="sidebar" value="/WEB-INF/templates/admin/sidebar.jsp" />
+    <put-attribute name="body" value="" />
+    <put-attribute name="footer" value="/WEB-INF/templates/admin/footer.jsp" />
+  </definition>
+  
+  <definition name="admin.index.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/index/index.jsp" />
+  </definition>
+   <definition name="admin.category.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/cat/index.jsp" />
+  </definition>
+   <definition name="admin.cat.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/cat/add.jsp" />
+  </definition>
+   <definition name="admin.cat.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/cat/edit.jsp" />
+  </definition>
+  <definition name="admin.new.index" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/news/index.jsp" />
+  </definition>
+    <definition name="admin.new.add" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/news/add.jsp" />
+  </definition>
+   <definition name="admin.new.edit" extends="admin.template">
+    <put-attribute name="body" value="/WEB-INF/jsp/admin/news/edit.jsp" />
+  </definition>
+   <!--END ADMIN TEMPLATE -->
+    <!-- ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+   <!-- PUBLIC TEMPLATE -->
+  <!--END PUBLIC TEMPLATE -->
+  <!-- BEGIN AUTHOGI TEMPLATES -->
+   <definition name="auth.login" template="/WEB-INF/jsp/auth/login.jsp">
+  </definition>
+   <definition name="public.index" template="/WEB-INF/jsp/public/index.jsp">
+  </definition>
+  <definition name="public.hinhanh" template="/WEB-INF/jsp/public/hinhanh.jsp">
+  </definition>
+  <definition name="public.gioithieu" template="/WEB-INF/jsp/public/gioithieu.jsp">
+  </definition>
+  <definition name="public.kyniem" template="/WEB-INF/jsp/public/kyniem.jsp">
+  </definition>
+  <definition name="public.hinhanhkyniem" template="/WEB-INF/jsp/public/hinhanhKyniem.jsp">
+  </definition>
+  
+  
+  <!-- END AUTH TEMPLATES -->
+</tiles-definitions>

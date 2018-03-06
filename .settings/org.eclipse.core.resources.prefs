@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/jsp/public/gioithieu.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/public/hinhanh.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/public/index.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/public/kyniem.jsp=UTF-8
+encoding//src/controller/AdminPictureController.java=UTF-8
+encoding//src/controller/AdminRememberController.java=UTF-8
+encoding//src/entity/Picture.java=UTF-8
+encoding//src/entity/Role.java=UTF-8
+encoding//src/entity/User.java=UTF-8
